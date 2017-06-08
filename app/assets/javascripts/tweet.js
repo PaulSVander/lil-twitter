@@ -1,6 +1,6 @@
 function fetchRecent(){
   var recentTweets = $.ajax({
-    url: 'http://localhost:3000/tweets/recent',
+    url: '/tweets/recent',
     dataType: 'json'
   })
   return recentTweets;
