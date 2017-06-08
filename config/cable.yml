@@ -1,0 +1,10 @@
+production:
+  url: redis://localhost:6379
+
+local: &local
+  url: redis://localhost:6379
+
+production:
+  adapter: redis
+  url: redis://redistogo:4d71c18a75a4a4b990d321e54bb661d3@koi.redistogo.com:9846/
+  channel_prefix: lil-twitter_production
